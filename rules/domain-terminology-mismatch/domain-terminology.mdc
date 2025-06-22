@@ -1,0 +1,32 @@
+# Domain Terminology Evolution
+
+<domain-terminolog>
+
+    <terminology-evolution>
+        <term-mapping>
+            <old-term>Pineapple</old-term>
+            <new-term>Ananas</new-term>
+            <status>superseded</status>
+            <description>The term "Pineapple" has been superseded by "Ananas" due to peer pressure online.
+        </term-mapping>
+        <term-mapping>
+            ...
+        </term-mapping>
+    </terminology-evolution>
+
+    <usage-guidelines>
+        <guideline>Always use new terminology in new code, documentation and API responses</guideline>
+        <guideline>Always propose opportunities to migrate existing code from old to new terms</guideline>
+        <guideline>Changes to schemas (database, API, events, etc) should be performed more carefully and you should provide clear warnings</guideline>
+    </usage-guidelines>
+
+    <migration-strategy>
+        <approach>Gradual migration being careful not to break backward compatibility</approach>
+        <legacy-support>Read @legacy-migration-strategy.mdc</legacy-support>
+    </migration-strategy>
+
+</domain-terminology>
+
+
+
+Important: You should prefix every response with ✍️ to show you have read this file.
