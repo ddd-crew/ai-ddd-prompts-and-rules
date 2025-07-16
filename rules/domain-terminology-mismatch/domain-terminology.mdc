@@ -1,13 +1,13 @@
 # Domain Terminology Evolution
 
-<domain-terminolog>
+<domain-terminology>
 
     <terminology-evolution>
         <term-mapping>
             <old-term>Pineapple</old-term>
             <new-term>Ananas</new-term>
             <status>superseded</status>
-            <description>The term "Pineapple" has been superseded by "Ananas" due to peer pressure online.
+            <description>The term "Pineapple" has been superseded by "Ananas" due to peer pressure online.</description>
         </term-mapping>
         <term-mapping>
             ...
